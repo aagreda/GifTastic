@@ -1,0 +1,149 @@
+ body {
+  /*background-image: url(../images/CottonCandy.jpg);*/
+  background-image: url(../images/smile.gif);
+  background-position: center;
+  background-size: cover;
+  background-color: black !important;
+  width: 100%;
+  max-width: 1200px !important;
+  height: 100%;
+  padding: 0px;
+  margin: auto 0;
+  color: lightsteelblue !important;
+  text-align: center !important;
+  text-transform: uppercase !important!;
+  font-family: 'Questrial', sans-serif;
+}
+
+* {
+    position: relative;
+    box-sizing: border-box;
+} 
+
+#topic-input, {
+  width: 100% !important;
+}
+
+input, button, .panel-body, .item, #displayGiphy, #addButton {
+  border-radius: 3px !important;
+}
+
+input, button, #displayGiphy, #addButton {
+  margin: 10px !important;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  margin: 11px;
+}
+
+p {
+  color: lightsteelblue !important;
+  font-size: 10px !important;
+  text-transform: uppercase !important!;
+  max-width: 200px !important;
+  margin: 1% !important;
+}
+
+#addButton, #topic-input {
+  color: lightsteelblue !important;
+}
+
+button {
+  height: 60px;
+  width: 100px;
+  text-transform: uppercase !important!;
+}
+.panel, .panel-default {
+  border: none;
+  background-color: transparent;
+
+}
+.panel-body, .panel-heading, .jumbotron {
+  background-color: transparent !important;
+  color: lightsteelblue !important;
+  border-color: transparent !important;
+}
+
+.panel-heading {
+  border-bottom: 0px !important;
+}
+
+.panel-body {
+  /*background-color: snow !important;*/
+  padding: 10px !important;
+}
+
+.panel-footer {
+  /*border: 1px solid black !important;*/
+  background-color: transparent; !important;
+  margin-bottom: auto;
+}
+
+#giphy{
+  width: 200px !important;
+  height: 43px !important;
+  text-align: center;
+}
+
+#addButton, #topic-input {
+  border: 2px solid lightsteelblue;
+  height: 30px;
+}
+
+#topic-input {
+  width: 500px !important;
+  border: 2px solid lightsteelblue;
+  height: 30px;
+  font-family: 'Questrial', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+
+}
+#addButton {
+  width: 120px;
+  font-size: 14px !important;
+}
+
+button{
+  opacity: 9;
+  background-color: rgba(255,255,255,0.4) !important;
+}
+button:nth-child(1){border: 4px solid #f0a !important;color: #f0a;}
+button:nth-child(2){border: 4px solid violet !important;color: violet;}
+button:nth-child(3){border: 4px solid royalblue !important;color: royalblue;}
+button:nth-child(4){border: 4px solid #ff9933 !important;color: #ff9933;}
+button:nth-child(5){border: 4px solid red !important;color: red;}
+button:nth-child(6){border: 4px solid #0af !important;color: #0af;}
+button:nth-child(7){border: 4px solid #22ccaa !important;color: #22ccaa;}
+button:nth-child(8){border: 4px solid aquamarine !important;color: aquamarine;}
+button:nth-child(9){border: 4px solid #f90050 !important;color: #f90050;}
+button:nth-child(10){border: 4px solid #69d025 !important;color: #69d025;}
+button:nth-child(11){border: 4px solid #11aabb  !important;color: #11aabb;}
+button:nth-child(12){border: 4px solid slateblue !important;color: slateblue;}
+button:nth-child(13){border: 4px solid #a0f !important;color: #a0f;}
+button:nth-child(14){border: 4px solid #4444dd !important;color: #4444dd;}
+button:nth-child(15){border: 4px solid darkmagenta !important;color: darkmagenta;}
+button:nth-child(16){border: 4px solid blue !important;color: blue;}
+button:nth-child(17){border: 4px solid rebeccapurple !important;color: rebeccapurple;}
+button:nth-child(18){border: 4px solid #442299 !important;color: #442299;}
+button:nth-child(19){border: 4px solid darkslateblue !important;color: darkslateblue;}
+button:nth-child(20){border: 4px solid midnightblue !important;color: midnightblue;}
+button:nth-child(21){border: 4px solid #aaff00 !important;color: #aaff00;}
+button:nth-child(22){border: 4px solid royalblue !important;color: royalblue;}
+button:nth-child(23){border: 4px solid #22ccaa !important;color: #22ccaa;}
+button:nth-child(24){border: 4px solid #11aabb  !important;color: #11aabb;}
+button:nth-child(25){border: 4px solid blue !important;color: blue;}
+button:nth-child(26){border: 4px solid #4444dd !important;color: #4444dd;}
+button:nth-child(27){border: 4px solid purple !important;color: purple;}
+button:nth-child(28){border: 4px solid #f0a !important;color: #f0a;}
+button:nth-child(29){border: 4px solid violet !important;color: violet;}
+button:nth-child(30){border: 4px solid royalblue !important;color: royalblue;}
+
+.item:nth-child(even) {float: left !important;}
+
+.item:nth-child(odd) {float: right !important;}
